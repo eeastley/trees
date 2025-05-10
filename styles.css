@@ -1,0 +1,106 @@
+/* Import Google Fonts for readability */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Reset default styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles for the document */
+body {
+  background-color: #F9F7F0; /* Off-white background */
+  color: #2B2B2B; /* Dark gray text */
+  font-family: 'Merriweather', serif;
+  font-size: 1rem; /* 16px base */
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 2rem 5%;
+  max-width: 800px; /* Optimal reading width */
+}
+
+/* Normal text (paragraphs, lists) */
+p, li {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #2B2B2B;
+  margin-bottom: 1rem;
+}
+
+/* Title style */
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2B2B2B;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+/* Heading 1 */
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2B2B2B;
+  margin: 1.5rem 0 1rem;
+  line-height: 1.4;
+}
+
+/* Heading 2 */
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2B2B2B;
+  margin: 1.25rem 0 0.75rem;
+  line-height: 1.4;
+}
+
+/* Images: Ensure they fit within content width */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 4px;
+}
+
+/* Tables: Clean and responsive */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table td, table th {
+  border: 1px solid #D3D3D3;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+/* Links: Subtle styling */
+a {
+  color: #1A73E8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure lists have proper spacing */
+ol, ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+/* Override Google Docs-specific classes if needed */
+[class^="c"] {
+  font-family: 'Merriweather', serif !important;
+  color: #2B2B2B !important;
+  line-height: 1.6 !important;
+}
